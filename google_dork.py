@@ -16,6 +16,3 @@ for link in search_result:
         print(unquote(url))
     except:
         continue
-
-# text = "/url?q=http://otaku-it.blogspot.com/&sa=U&ved=2ahUKEwjpl96ur-TpAhXz7XMBHRZ8AZ4QFjAAegQIARAB&usg=AOvVaw2-ybQLARyroRAJ9bvyG1ol"
-# print(re.search('url\?q=(.+?)\&sa', text).group(1))
